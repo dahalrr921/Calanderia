@@ -11,6 +11,7 @@ struct ContentView: View {
                 // Background Image
                 Image("Calander")
                     .resizable()
+                    .blur(radius: 5)
                     .edgesIgnoringSafeArea(.all)
                 
                 VStack {
